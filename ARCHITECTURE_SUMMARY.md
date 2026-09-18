@@ -27,7 +27,7 @@ modules under the `fjsp/` package.
 │   └── experiments/
 │       └── runner.py            Multi-seed experiment runner + CLI
 ├── analysis/
-│   └── failure_analysis.md      4-mode causal failure write-ups
+│   └── failure_analysis.md      3-mode causal failure analysis
 ├── instances/
 │   └── edge_cases/              7 hand-built extreme fixtures (JSON)
 ├── results/                     Generated artefacts (14 files + manifest)
@@ -269,7 +269,7 @@ within a block cannot reduce the block's total processing time.
 > boundary N2 pairs.  Across 30+ seed sweeps, a larger stagnation window
 > would multiply wall-clock time proportionally with diminishing returns in
 > high-flexibility instances where the makespan landscape is flat (see Failure
-> Mode 4 in `analysis/failure_analysis.md`).
+> in `analysis/failure_analysis.md`).
 
 **Tabu memory:** Move signatures `("N1", key, from_m, to_m)` and
 `("N2", lk, rk, machine)` are stored with expiry `iteration + tabu_tenure`.
@@ -336,15 +336,14 @@ single-pass greedy lower reference point.
 
 **Role:** Causal failure mode documentation. Stage 5: Causal Failure Analysis.
 
-Contains 4 failure modes, each following the required 5-step structure:
+Contains 3 failure modes, each following the required 5-step structure:
 **Observation → Evidence → Hypothesis → Structural Explanation → Proposed Improvement.**
 
-| Mode | Root cause |
-|---|---|
-| 1 — High-Flexibility Bottleneck | Large N1 neighbourhood → greedy commits to contended machine |
-| 2 — High-Variance Critical Path | Single outlier duration dominates job-chain lower bound |
-| 3 — Machine Advantage Overloading | Greedy always prefers specialist → single-machine queue buildup |
-| 4 — Stagnation Trap | Flat makespan topology in high-flexibility instances → early exit before diversification |
+| Mode | Evidence | Status |
+|---|---|---|
+| 1 — High-Variance / Unbalanced Gap | Per-class results: high_variance 0.106, unbalanced 0.102 | Confirmed |
+| 2 — Bottleneck × Flexibility (Predicted) | Flexibility/bottleneck sweeps: no predicted failure | **Not reproduced** |
+| 3 — Budget Plateau | Sweep row (50 iter) vs ablation row (100 iter): same result | Confirmed |
 
 ---
 
