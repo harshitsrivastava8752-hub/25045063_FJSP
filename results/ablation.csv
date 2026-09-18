@@ -1,0 +1,4 @@
+algorithm,mean_makespan,stddev,seeds
+spt_baseline,83.4,12.381650259876295,20
+greedy_multistart,71.55,7.735597823323711,20
+greedy_plus_local_search,55.6,5.679140038680801,20

@@ -1,0 +1,53 @@
+{
+  "jobs": 2,
+  "machines": 2,
+  "seed": 20260910,
+  "parameters": {
+    "jobs": 2,
+    "machines": 2,
+    "operations_per_job": 2,
+    "flexibility": 0.5,
+    "processing_time_min": 1,
+    "processing_time_max": 10000,
+    "processing_time_noise_scale": 0.0,
+    "bottleneck_probability": 0.0,
+    "bottleneck_machine": 0,
+    "specialist_machine": 1,
+    "machine_advantage": 0.0,
+    "instance_class": "average"
+  },
+  "operations": [
+    {
+      "job": 0,
+      "index": 0,
+      "options": {
+        "0": 9290,
+        "1": 4165
+      }
+    },
+    {
+      "job": 0,
+      "index": 1,
+      "options": {
+        "0": 2118,
+        "1": 6522
+      }
+    },
+    {
+      "job": 1,
+      "index": 0,
+      "options": {
+        "0": 2316,
+        "1": 4508
+      }
+    },
+    {
+      "job": 1,
+      "index": 1,
+      "options": {
+        "0": 3478,
+        "1": 8073
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "jobs": 3,
+  "machines": 2,
+  "seed": 20260910,
+  "parameters": {
+    "jobs": 3,
+    "machines": 2,
+    "operations_per_job": 3,
+    "flexibility": 0.5,
+    "processing_time_min": 5,
+    "processing_time_max": 5,
+    "processing_time_noise_scale": 0.0,
+    "bottleneck_probability": 0.0,
+    "bottleneck_machine": 0,
+    "specialist_machine": 1,
+    "machine_advantage": 0.0,
+    "instance_class": "average"
+  },
+  "operations": [
+    {
+      "job": 0,
+      "index": 0,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    {
+      "job": 0,
+      "index": 1,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    {
+      "job": 0,
+      "index": 2,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    {
+      "job": 1,
+      "index": 0,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    {
+      "job": 1,
+      "index": 1,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    {
+      "job": 1,
+      "index": 2,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    {
+      "job": 2,
+      "index": 0,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    {
+      "job": 2,
+      "index": 1,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    {
+      "job": 2,
+      "index": 2,
+      "options": {
+        "0": 5,
+        "1": 5
+      }
+    }
+  ]
+}

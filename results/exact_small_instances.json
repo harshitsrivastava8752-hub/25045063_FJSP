@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 0,
+    "heuristic": 22,
+    "optimum": 22,
+    "gap": 0.0
+  },
+  {
+    "seed": 1,
+    "heuristic": 26,
+    "optimum": 26,
+    "gap": 0.0
+  },
+  {
+    "seed": 2,
+    "heuristic": 24,
+    "optimum": 24,
+    "gap": 0.0
+  },
+  {
+    "seed": 3,
+    "heuristic": 33,
+    "optimum": 30,
+    "gap": 0.1
+  },
+  {
+    "seed": 4,
+    "heuristic": 21,
+    "optimum": 21,
+    "gap": 0.0
+  },
+  {
+    "seed": 5,
+    "heuristic": 23,
+    "optimum": 23,
+    "gap": 0.0
+  },
+  {
+    "seed": 6,
+    "heuristic": 34,
+    "optimum": 28,
+    "gap": 0.21428571428571427
+  },
+  {
+    "seed": 7,
+    "heuristic": 22,
+    "optimum": 22,
+    "gap": 0.0
+  },
+  {
+    "seed": 8,
+    "heuristic": 12,
+    "optimum": 12,
+    "gap": 0.0
+  },
+  {
+    "seed": 9,
+    "heuristic": 19,
+    "optimum": 19,
+    "gap": 0.0
+  }
+]

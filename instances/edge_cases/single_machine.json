@@ -1,0 +1,126 @@
+{
+  "jobs": 5,
+  "machines": 1,
+  "seed": 20260910,
+  "parameters": {
+    "jobs": 5,
+    "machines": 1,
+    "operations_per_job": 3,
+    "flexibility": 0.0,
+    "processing_time_min": 1,
+    "processing_time_max": 20,
+    "processing_time_noise_scale": 0.0,
+    "bottleneck_probability": 0.0,
+    "bottleneck_machine": 0,
+    "specialist_machine": 0,
+    "machine_advantage": 0.0,
+    "instance_class": "average"
+  },
+  "operations": [
+    {
+      "job": 0,
+      "index": 0,
+      "options": {
+        "0": 12
+      }
+    },
+    {
+      "job": 0,
+      "index": 1,
+      "options": {
+        "0": 1
+      }
+    },
+    {
+      "job": 0,
+      "index": 2,
+      "options": {
+        "0": 5
+      }
+    },
+    {
+      "job": 1,
+      "index": 0,
+      "options": {
+        "0": 16
+      }
+    },
+    {
+      "job": 1,
+      "index": 1,
+      "options": {
+        "0": 9
+      }
+    },
+    {
+      "job": 1,
+      "index": 2,
+      "options": {
+        "0": 14
+      }
+    },
+    {
+      "job": 2,
+      "index": 0,
+      "options": {
+        "0": 16
+      }
+    },
+    {
+      "job": 2,
+      "index": 1,
+      "options": {
+        "0": 20
+      }
+    },
+    {
+      "job": 2,
+      "index": 2,
+      "options": {
+        "0": 1
+      }
+    },
+    {
+      "job": 3,
+      "index": 0,
+      "options": {
+        "0": 9
+      }
+    },
+    {
+      "job": 3,
+      "index": 1,
+      "options": {
+        "0": 15
+      }
+    },
+    {
+      "job": 3,
+      "index": 2,
+      "options": {
+        "0": 11
+      }
+    },
+    {
+      "job": 4,
+      "index": 0,
+      "options": {
+        "0": 20
+      }
+    },
+    {
+      "job": 4,
+      "index": 1,
+      "options": {
+        "0": 17
+      }
+    },
+    {
+      "job": 4,
+      "index": 2,
+      "options": {
+        "0": 14
+      }
+    }
+  ]
+}
