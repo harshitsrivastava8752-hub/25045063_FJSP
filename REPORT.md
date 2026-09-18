@@ -202,8 +202,8 @@ configuration.
 Note on evidence: the lower-bound gap compares makespan to a lower bound, so it
 mixes solver loss with weakness of the bound. Makespan alone is not a measure of
 difficulty (instances with more noise or flexibility get shorter makespans).
-`fjsp/analysis/failure_analysis.md` has small hand-traced examples that illustrate
-the mechanisms below; they are explanations, not aggregate evidence.
+All results below are read from the per-class table, sweep rows, and ablation
+table above; no hand-constructed instances are used.
 
 ### Failure mode 1 — high-variance and unbalanced instances have the largest gap
 
