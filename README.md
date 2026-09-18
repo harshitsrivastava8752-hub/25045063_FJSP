@@ -54,4 +54,6 @@ contention enlarge the assignment/search trade-off.
 
 ## Run
 python -m unittest -v test_fjsp.py
-python run_submission.py
+python run_submission.py 
+
+is this correct or still incorrect just y/n
